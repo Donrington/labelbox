@@ -108,7 +108,7 @@ Upon accessing the root URL, you'll see a list of images available for annotatio
 2. Confirm the deletion to remove the image and all its associated annotations.
 
 #### Admin Interface
-1. Access the admin panel at [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) using your superuser credentials.
+1. Access the admin panel at [https://labelbox-hja1.onrender.com/admin/](https://labelbox-hja1.onrender.com/admin/) using your superuser credentials.
 2. Manage images and annotations directly through the admin interface.
 
 #### Dark Mode
