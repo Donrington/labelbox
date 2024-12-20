@@ -53,7 +53,7 @@ Follow these steps to set up the Image Annotation App on your local machine:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/labelbox.git
+    git clone https://github.com/Donrington/labelbox.git
     cd labelbox
     ```
 
