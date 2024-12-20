@@ -88,17 +88,31 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 # }
 
 
-SECRET_KEY = config('SECRET_KEY')
+# SECRET_KEY = config('SECRET_KEY')
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': config('DB_NAME'),
+#         'USER': config('DB_USER'),
+#         'PASSWORD': config('DB_PASSWORD'),
+#         'HOST': config('DB_HOST'),
+#         'PORT': config('DB_PORT'),
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT'),
+        'NAME': 'labelbox',
+        'USER': 'labelboxadmin',
+        'PASSWORD': 'U1Wexyer4whQjfIgPfjuvIFaGd9uuKtt',
+        'HOST': 'dpg-ctic5mtds78s73edcamg-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
+
+# Passw
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
