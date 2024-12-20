@@ -86,7 +86,7 @@ Follow these steps to set up the Image Annotation App on your local machine:
     ```bash
     python manage.py runserver
     ```
-    Access the application at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+    Access the application at [https://labelbox-hja1.onrender.com/](https://labelbox-hja1.onrender.com/).
 
 ## Usage
 
