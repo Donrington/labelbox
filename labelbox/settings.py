@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-te(khv692+=o!i0g#1j4kabge&=ly%=vrpki%7pffyt($8)=#b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://labelbox-hja1.onrender.com']
+ALLOWED_HOSTS = ['labelbox-hja1.onrender.com']
 
 
 
