@@ -35,12 +35,11 @@ The Image Annotation App is a web-based platform developed using Django, designe
 - **Prism.js** – (Optional) For syntax highlighting of JSON data.
 
 ### Database:
-- **SQLite** – Default Django database for development.
-- (Optional) **PostgreSQL** – For production environments.
+- **MySQL** – Django database for development.
+- **PostgreSQL** – For production environments.
 
 ### Others:
 - **Git** – Version control system.
-- **Docker** – (Optional) For containerization.
 
 ## Installation
 Follow these steps to set up the Image Annotation App on your local machine:
@@ -54,8 +53,8 @@ Follow these steps to set up the Image Annotation App on your local machine:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/image-annotation-app.git
-    cd image-annotation-app
+    git clone https://github.com/yourusername/labelbox.git
+    cd labelbox
     ```
 
 2. **Create a Virtual Environment**:
@@ -118,7 +117,7 @@ Use the Dark Mode toggle in the navigation bar to switch between light and dark 
 ## Project Structure
 
 ```plaintext
-image-annotation-app/
+labelbox/
 ├── annotations/
 │   ├── migrations/
 │   ├── static/
@@ -136,7 +135,7 @@ image-annotation-app/
 │   ├── tests.py
 │   ├── urls.py
 │   └── views.py
-├── labelbox_webapp/
+├── labelbox/
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
@@ -148,7 +147,8 @@ image-annotation-app/
 
 
 Contact
-Your Name
-Email: your.email@example.com
-GitHub: https://github.com/yourusername
-LinkedIn: https://linkedin.com/in/yourprofile
+Abakwe Carrington
+CyberSage
+Email: carryoby@gmail.com
+GitHub: https://github.com/Donrington
+LinkedIn: https://www.linkedin.com/in/carrington-abakwe-b0b0a0217
