@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: "Space Grotesk", serif !important;
+    font-optical-sizing: auto;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Space Grotesk", serif !important;
+    font-optical-sizing: auto;
+    color: #343a40;
+}
+
+p{
+    font-family: "Space Grotesk", serif !important;
+}
+
+/* Hero Section */
+header {
+    background: linear-gradient(to bottom right, #007bff, #6610f2);
+    color: #fff;
+    padding: 5rem 1rem;
+}
+
+header .lead {
+    font-size: 1.25rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-img-top, .img-fluid {
+    object-fit: cover;
+    height: 100%;
+}
+
+.card-body {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.card-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Dark Mode Styles */
+body.bg-dark {
+    background-color: #121212 !important;
+    color: #ffffff;
+}
+
+body.text-white {
+    color: #ffffff !important;
+}
+
+.card.bg-secondary {
+    background-color: #1e1e1e !important;
+
+}
+
+.card.bg-light {
+    background-color: #ffffff !important;
+}
+
+.card.text-white {
+    color: #ffffff !important;
+}
+
+.card.text-dark {
+    color: #343a40 !important;
+}
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode header {
+    background: linear-gradient(to bottom right, #343a40, #6c757d);
+}
+/* Animation */
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
